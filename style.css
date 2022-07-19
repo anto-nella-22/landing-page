@@ -1,0 +1,26 @@
+.header {
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.head {
+    font-family: "Header Logo";
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    list-style: none;
+    font-family: "Hero Secondary";
+    font-size: 18px;
+    color: #E5E7EB;
+}
