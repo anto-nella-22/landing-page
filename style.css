@@ -70,6 +70,7 @@ button {
     font-weight: 700;
     padding: 5px 25px;
     border-radius: 10px;
+    border-style: none;
 }
 
 .right-side {
@@ -169,4 +170,58 @@ button {
     align-self: flex-end;
     font-size: 24px;
     font-weight: 500;
+}
+
+
+/* fourth block */
+.gen-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 {
+    background-color: #3882F6;
+    border-radius: 6px;
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text2 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 60px;
+   
+}
+
+.text3 {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 60px;
+    
+}
+
+.lowb {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.low-button {
+    border-color: #F9FAF8;
+    border-radius: 6px;
+    border-width: 2px;
+    border-style: solid;
 }
